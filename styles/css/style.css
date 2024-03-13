@@ -1,0 +1,236 @@
+/* Universal Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, Times, 'Times New Roman', serif; 
+    box-sizing: border-box;
+    
+    
+    
+}
+/* header styling */
+header{
+    color: rgb(108, 28, 236);
+    display: flex;
+    /* spaces the content of the title with the anchor elements */
+    justify-content: space-between;
+    background-color: aqua;
+    
+    
+}
+/* portrait styling */
+.portrait{
+    width: 200px;
+    height: auto;
+    
+}
+
+
+/* styling for navbar list elements */
+nav ul li{
+    display:inline-block;
+    margin: 10px 10px;
+    list-style:none;
+
+}
+/* styling for anchor elements */
+nav ul li a{
+  color: rgb(108, 28, 236);
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;;
+  }
+/* changes color while hovering over the anchor elements */
+  nav ul li a:hover {
+    color:rgb(208, 147, 255) ;
+  }
+
+  h1{
+    font-size: 50px;
+}
+
+/* created a span in the page header to change the coloring of the name in spans */
+span{
+    color:rgb(139, 116, 254);
+}
+
+.hero{
+    background-image:linear-gradient(rgb(220, 213, 255),rgb(189, 122, 252));
+    height :300px
+    }
+    
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 0%;
+    font-size: 40px;
+}
+
+.about-me p{
+font-size: 50px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+.projects-title{
+ display: flex;
+ align-items: stretch;
+ font-size: 40px;
+
+}
+
+.projects{
+    /* used grid to adjust boxes instead of */
+    display: grid ;
+ text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 150px auto;
+    grid-gap: 10px;  
+    
+    
+}
+
+
+.project1{
+ /* added background images to project boxes */
+    grid-column: 2/4;
+    background-repeat: no-repeat;
+    background-image:url("/images/Nature.jpg");
+    background-size:cover;
+    background-position: center;
+}
+/* added a greyscale effect while hovering over boxes */
+.project1:hover{
+filter: grayscale(100%);
+
+}
+
+.project2{
+grid-column:2/6;
+grid-row:1/5 ;
+background-image:url("/images/nature-image.jpeg");
+/* does not repeat the image */
+background-repeat: no-repeat;
+/* covers the length of the box */
+background-size: cover;
+/* centers the image */
+background-position: center;
+}
+
+.project2:hover{
+    filter: grayscale(100%);
+}
+
+.project3{
+    grid-column:4/6  ;
+    background-image: url("/images/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.project3:hover{
+    filter: grayscale(100%);
+}
+
+
+.project4{
+    grid-column:2/4 ;
+    height: 150px;
+    background-image:url("/images/Big_Nature.jpeg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.project4:hover{
+    filter: grayscale(100%);
+
+
+}
+
+.project5{
+ grid-column:4/6 ;
+ background-image:url("/images/img_5terre_wide.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+    
+}
+
+.project5:hover{
+    filter:grayscale(100%)
+}
+
+
+.contact{
+    /* added flex display to contact info */
+    display: flex;
+    background-color: aqua ;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border:solid;
+    
+
+}
+
+.contact ul li{list-style: none;
+    display: inline-block
+
+
+}
+
+.contact-title{
+    font-size: 30px;
+}
+
+.contact ul li a{
+    text-decoration:none ;
+    color:rgb(108, 28, 236);
+    font-size: 40px;
+    margin-right: 20px;
+
+    
+
+}
+
+.contact ul li a:hover {
+    color:rgb(208, 147, 255) ;
+}
+/* styles the projects anchor elements */
+.projects a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Media Screen Styling for smaller phones */
+@media screen and (max-width:480px){
+.hero{
+    background-image:linear-gradient(rgb(43, 0, 255),rgb(132, 0, 255));
+}
+.about-me{
+    font-size: 25px;
+}
+
+.about-me p{
+    font-size: 15px;
+
+}
+
+.projects-title{
+    font-size: 14px;
+}
+
+.projects{
+    width: 500px;
+    height: auto;
+}
+
+}
+    
+
+    
