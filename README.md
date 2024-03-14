@@ -12,6 +12,7 @@ Find out a little about me and witness my journey to becoming a Full Fledged Sof
 <img width="1268" alt="image" src="https://github.com/CCUE96/Chris.Dev/assets/159393541/47dc2a48-ab83-4403-a9e8-4ea8cc2cdca3">
 
 ### <ins>Deployed Site<ins>
+https://ccue96.github.io/Chris.Dev/
 
 ###<ins>Repository<ins>
 https://github.com/CCUE96/Chris.Dev
