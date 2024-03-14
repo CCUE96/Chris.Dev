@@ -14,5 +14,5 @@ Find out a little about me and witness my journey to becoming a Full Fledged Sof
 ### <ins>Deployed Site<ins>
 https://ccue96.github.io/Chris.Dev/
 
-###<ins>Repository<ins>
+### <ins>Repository<ins>
 https://github.com/CCUE96/Chris.Dev
